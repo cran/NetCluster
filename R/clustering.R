@@ -68,3 +68,19 @@ permute_matrix <- function(mem_vector, adj_matrix){
 	return(adj_matrix_sorted)
 
 }
+
+
+generate_cluster_cor_mat <- function(observed_cor_matrix,
+		cluster_vector) {
+	num_vertices = nrow(observed_cor_matrix)
+	
+	cluster_cor_mat <- observed_cor_matrix
+	for (m in 1:num_vertices) {
+		for (n in 1:num_vertices) {
+			cluster_cor_mat[m,n] = mean(observed_cor_matrix[which(
+									cluster_vector[row(observed_cor_matrix)]==cluster_vector[m] & 
+											cluster_vector[col(observed_cor_matrix)]==cluster_vector[n])])
+		}
+	}
+	return(cluster_cor_mat)
+}

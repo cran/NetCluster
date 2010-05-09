@@ -1,18 +1,18 @@
 Package: NetCluster
 Type: Package
-Version: 0.1
+Version: 0.2
 Date: 2010-05-09
 Title: Clustering for networks
 Author: Mike Nowak <michael.nowak@gmail.com>, Solomon Messing
         <solomon.messing@gmail.com>, Sean J Westwood
         <seanjw@stanford.edu>, and Dan McFarland
         <dmcfarla@stanford.edu>
-Maintainer: Solomon Messing <solomon.messing@gmail.com>
+Maintainer: Sean J Westwood <seanjw@stanford.edu>
 Depends: stats, sna
 Description: Facilitates network clustering and evaluation of cluster
         configurations.
 License: GPL-2
 LazyLoad: yes
-Packaged: 2010-06-17 19:18:35 UTC; user
+Packaged: 2012-10-29 08:57:21 UTC; ripley
 Repository: CRAN
-Date/Publication: 2010-06-18 08:36:09
+Date/Publication: 2012-10-29 08:57:21

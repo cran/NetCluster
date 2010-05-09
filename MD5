@@ -1,0 +1,7 @@
+3ad7986863e59f902c888d87918ec5fa *DESCRIPTION
+1914ba853c9b9711db735e0354c3fc80 *NAMESPACE
+c4add504e8782b63677b9a3071861266 *R/clustering.R
+7768d0b9dca23876939b9fe236d5d442 *man/clustConfigurations.Rd
+5f92097cb9f8b2de977020f45b5b30e2 *man/clusterCorr.Rd
+96ed4cf6ec74e5196b3fcdbac61ca0bf *man/generate_cluster_cor_mat.Rd
+bdc8759bf10397f637a13b94f0837fbe *man/permute_matrix.Rd
